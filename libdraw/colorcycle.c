@@ -99,7 +99,7 @@ main(void) {
     }
     eresized(0);
     einit(Emouse);
-    /* 100 msec I think */
+    /* 72 hz I think */
     t = (72);
     /* setup a timer so we can fire events off at constant intervals */
     timer = etimer(0, t);
